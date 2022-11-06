@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>js</title>
+</head>
+
+<body>
+    <div id="main" style="height: 100vh; background-color: white;">
+
+        <!--nav-->
+        <nav>
+            <section id="rightnav">
+                <ul id="each1">
+                    <li><a href=""><img src="images/bel.png" style="color: white;" alt=""></a></li>
+                    <li><a href=""><img src="images/sms.png" alt=""></a></li>
+                    <li><a href=""><img src="images/shopping cart.png" alt=""></a></li>
+                    <li><a href=""><img src="images/seaerch (1).png" alt=""></a></li>
+                </ul>
+            </section>
+            <section id="liftnav">
+                <ul id="each2">
+                    <div id="logo">
+                        <img src="images/khamsat logo.png" alt="">
+                    </div>
+                    <li><a href="">
+                            خمسات
+                        </a></li>
+                    <li><a href="">أضف خدمة</a></li>
+                    <li><a href="">التصنيفات</a></li>
+                    <li><a href="">المشتريات</a></li>
+                    <li><a href="">الطلبات الواردة</a></li>
+
+                </ul>
+            </section>
+            <div id="menu22">
+                <button onclick="nooo()" id="x" href=""
+                    style="    background-color: rgb(128, 128, 128); border: 0; color: white; font-size: larger;           ">&times;</button>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>CONTACT</li>
+                    <li>profile</li>
+                </ul>
+
+            </div>
+            <button onclick="menuee()"
+                style="width: 5%;    background-color: #444; border: 0; font-size: 40px; color: white;">&#9776;</button>
+
+
+        </nav>
+
+        <!--end nav-->
+
+        <button id="nightmode" onclick="night()">Night Mode</button>
+        <br>
+        <br>
+
+
+        <!--first request-->
+        <div class="inputs">
+            <input id="num1" type="number">
+            <input id="num2" type="number">
+            <input id="num3" type="number">
+            <input id="num4" type="number">
+            <input id="num5" type="number">
+            <input id="num6" type="number">
+            <input id="num7" type="number">
+            <input id="num8" type="number">
+            <input id="num9" type="number">
+            <input id="num10" type="number">
+
+            <button onclick="get_total()">Result</button>
+            <h2 id="total"></h2>
+        </div>
+        <!--end first request-->
+        <br>
+        <br>
+        <br>
+        <!--seconed request-->
+        <button onclick="closee()">MORE</button>
+        <div id="div">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum placeat soluta quod accusamus,
+            repudiandae
+            voluptate doloremque blanditiis at accusantium?
+            Quaerat sequi, reprehenderit doloribus nulla fuga voluptate? Explicabo unde odit praesentium.
+        </div>
+
+
+        <!--end seconed request-->
+
+
+        <!--Form-->
+
+        <form onsubmit="return bsss();" style="margin-top: 50px; width: 100%;">
+            <div id="err"></div>
+            <input type="text" id="name" placeholder="Name">
+            <input type="phone" id="phonee" placeholder="Phone">
+            <input type="email" id="mail1" placeholder="Email">
+            <button type="submit">submit </button>
+        </form>
+
+
+
+        <!--Form-->
+
+
+        <!--Stop Watch-->
+
+        <h1 id="displayClock" onload="showtime()" style="margin-top:70px; text-align: center;"></h1>
+        <!--Stop Watch-->
+
+
+
+        <script src="main.js"></script>
+
+    </div>
+</body>
+
+</html>

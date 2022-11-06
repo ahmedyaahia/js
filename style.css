@@ -1,0 +1,149 @@
+.input {
+    width: 100%;
+}
+
+button {
+    width: 10%;
+}
+
+input {
+    width: 5%;
+}
+
+#total::before {
+    content: 'Total Avarge Number is : ';
+
+}
+
+.display {
+    width: 100%;
+    margin: 50px;
+}
+
+
+#menu22 {
+    display: none ;
+    height: auto;
+    transition: width 1s;
+    right: 0;
+    margin-top: 10px;
+    width: 10%;
+    height: 400px;
+    position: absolute;
+    z-index: +9;
+    background-color: rgb(128, 128, 128);
+}
+
+
+#menu22:hover {
+    width: 10%;
+}
+
+#menu22 ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+#menu22 ul li {
+    margin-top: 20px;
+}
+
+* {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*nav*/
+nav {
+    position: relative;
+
+    width: 100%;
+    background-color: #444;
+    display: flex;
+
+    height: 60px;
+
+}
+
+#rightnav {
+    width: 40%;
+    height: 100%;
+    display: flex;
+
+}
+
+#each1 {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+#each1 li {
+    width: 5%;
+    margin-left: 30px;
+}
+
+
+
+
+#liftnav {
+    width: 60%;
+    height: 100%;
+    display: flex;
+
+}
+
+#each2 {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+
+}
+
+#er {
+    width: 6%;
+    margin-right: 10px;
+}
+
+#each2 li {
+
+    width: 18%;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#each2 #logo {
+    height: 70%;
+    width: 20%;
+    margin-right: 10px;
+}
+
+#each2 #logo img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#each2 li a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+}
+
+#each2 li:hover {
+    background-color: rgb(96, 94, 94);
+}
+
+/*end nav*/
